@@ -32,6 +32,8 @@
     padding: 20px;
     background-color: whitesmoke;
 }
+
+/*헤더부분*/
 .box {
     width: 200px;
     height: 200px;
@@ -39,6 +41,7 @@
     margin: 0px auto;
     display: block;
 }
+/*메인부분*/
 #cb-h1, #cb-h2, #cb-h3 {
     display: none;
 }
@@ -55,4 +58,7 @@
 }
 #cb-h1:checked ~ #btn1, #cb-h2:checked ~ #btn2, #cb-h3:checked ~ #btn3 {
     background-color: darkcyan;
+}
+.Table{
+    width: 100%;
 }
